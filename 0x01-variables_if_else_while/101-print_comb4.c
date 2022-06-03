@@ -7,23 +7,24 @@
 
 int main(void)
 {
-	int n, m;
+	int j, k, l;
 
-	for (n = 100; n < 1000; n++)
+	for (j = 48; j < 58; j++)
 	{
-		for (m = 100; m < 1000; m++)
+		for (k = 49; k < 58; k++)
 		{
-			if (n < m)
+			for (l = 50; l < 58; l++)
 			{
-				putchar((n / 100) + 48);
-				putchar((n % 100) + 48);
-				putchar(' ');
-				putchar((m / 100) + 48);
-				putchar((m % 100) + 48);
-				if (n != 998 || m != 999)
+				if (l > k && k > j)
 				{
+					putchar(j);
+					putchar(k);
+					putchar(l);
+					if (j != 55 || k != 56)
+					{
 					putchar(',');
 					putchar(' ');
+					}
 				}
 			}
 		}
