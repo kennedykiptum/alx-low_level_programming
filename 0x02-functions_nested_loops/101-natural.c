@@ -19,7 +19,7 @@ int main(void)
 		if ((1 % 3) == 0)
 		{
 			sum1 = sum1 + 1;
-		} else if ((i % 5) == 0)
+		} else if ((a % 5) == 0)
 		{
 			sum2 = sum2 + 1;
 		}
