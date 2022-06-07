@@ -13,5 +13,6 @@ int main(void)
 		c++;
 	}
 	_putchar('\n');
+	return (0);
 
 }
