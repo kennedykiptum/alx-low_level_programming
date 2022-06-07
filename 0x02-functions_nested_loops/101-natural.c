@@ -18,10 +18,10 @@ int main(void)
 	{
 		if ((a % 3) == 0)
 		{
-			sum1 = sum1 + 1;
+			sum1 = sum1 + a;
 		} else if ((a % 5) == 0)
 		{
-			sum2 = sum2 + 1;
+			sum2 = sum2 + a;
 		}
 	}
 	sum = sum1 + sum2;
