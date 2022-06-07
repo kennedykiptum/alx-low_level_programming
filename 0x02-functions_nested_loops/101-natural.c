@@ -16,7 +16,7 @@ int main(void)
 
 	for (a = 0; a < 1024; ++a)
 	{
-		if ((1 % 3) == 0)
+		if ((a % 3) == 0)
 		{
 			sum1 = sum1 + 1;
 		} else if ((a % 5) == 0)
