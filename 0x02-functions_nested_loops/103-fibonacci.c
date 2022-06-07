@@ -20,10 +20,10 @@ int main(void)
 			sum = sum + b;
 		}
 		next = b + c;
-		b + c;
+		b = c;
 		c = next;
 	}
-	print("%lu\n", sum);
+	printf("%lu\n", sum);
 
 	return (0);
 }
