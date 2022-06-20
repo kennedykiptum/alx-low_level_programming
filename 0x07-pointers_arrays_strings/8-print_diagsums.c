@@ -12,6 +12,9 @@ void print_diagsums(int *a, int size)
 
 	unsigned int y, z;
 
+	y = 0;
+	z = 0;
+
 	for (x = 0; x < size; x++)
 	{
 		y += a[(size * x) + x];
