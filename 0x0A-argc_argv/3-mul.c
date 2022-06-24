@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * main - prints its name, followed by a new line
@@ -9,17 +10,19 @@
  */
 int main(int argc, char *argv[])
 {
-	int result;
+	int result, a, b;
 
 	/**
 	 * _atoi - converts string to integer
 	 */
-	if (argc < 2)
+	if (argc < 3 || argc > 3)
 	{
 		printf("error\n");
 		return (1);
 	}
-	result = _atoi(argv[1]) * _atoi(argv[2]);
+	a = _atoi(argv[1]);
+	b = _atoi(argv[2]);
+	result = a * b;
 	printf("%d\n", result);
 	return (0);
 }
