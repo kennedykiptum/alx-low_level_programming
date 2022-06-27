@@ -23,7 +23,7 @@ int **alloc_grid(int width, int height)
 		{
 			free(in);
 			for (b = 0; b <= a; b++)
-				free(array[b]);
+				free(in[b]);
 			return (NULL);
 		}
 	}
