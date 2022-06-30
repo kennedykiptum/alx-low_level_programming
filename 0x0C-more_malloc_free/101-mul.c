@@ -35,16 +35,18 @@ int _strlen(char *s)
 }
 /**
  * errors - handles errors for main
+ * _putchar - output
  */
 void errors(void)
 {
-	printf("Error\n");
+	_putchar('Error\n');
 	exit(98);
 }
 /**
  * main - multiplies two positive numbers
  * @argc: number of arguments
  * @argv: array of arguments
+ * _putchar - output information
  * Return: always 0 (Success)
  */
 int main(int argc, char *argv[])
@@ -77,6 +79,9 @@ int main(int argc, char *argv[])
 		if (carry > 0)
 			result[len1 + len2 + 1] += carry;
 	}
+/**
+ * _putchar - outputs information
+ */
 	for (i = 0; i < len - 1; i++)
 	{
 		if (result[i])
