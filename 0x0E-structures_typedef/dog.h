@@ -2,10 +2,10 @@
 #define DOG_H
 
 /**
- * struct dog - gives information
+ * struct dog - gives information about the struct
  * @name: the name of dog
- * @age: dogs age
- * @owner: dog owner
+ * @age: the age of the dog
+ * @owner: the owner of the dog
  * Description: describes the dog
  */
 struct dog
@@ -15,5 +15,6 @@ struct dog
 	char *owner;	
 };
 void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
 
 #endif
