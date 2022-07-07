@@ -22,7 +22,7 @@ int op_sub(int a, int b)
 /**
  * op_mul - calculates the product of two integers
  * @a: first integer
- * @b: second integer 
+ * @b: second integer
  * Return: product of a and b
  */
 int op_mul(int a, int b)
